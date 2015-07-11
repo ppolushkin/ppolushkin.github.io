@@ -9,12 +9,16 @@
         .block {
             margin-top: 8px;
         }
+
+        .shadow {
+            box-shadow: 5px 5px 8px rgba(0,0,0,.75);
+        }
     </style>
 <body>
 
 <div class="container">
 
-    <div class="jumbotron">
+    <div class="jumbotron shadow">
         <h2>Code samples</h2>
 
         <div class="row">
@@ -30,16 +34,17 @@
                 </address>
             </div>
             <div class="col-xs-3">
-                <img src="img/me.jpg" class="img-rounded"/>
+                <img src="img/me.jpg" class="img-rounded shadow"/>
             </div>
 
         </div>
     </div>
 
     <a href="http://www.w3.org/TR/selectors/#specificity" class="block btn btn-lg btn-warning">Selector specificity</a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box_model" class="block btn btn-lg btn-warning">Box model</a>
+    <a href="html/box.html" class="block btn btn-lg btn-warning">Box model</a>
     <a href="html/position.html" class="block btn btn-lg btn-warning ">CSS position property</a>
     <a href="html/display.html" class="block btn btn-lg btn-warning ">CSS display property</a>
+    <a href="html/boxShadow.html" class="block btn btn-lg btn-info">Box Shadow</a>
     <a href="html/absoluteAndRelative.html" class="block btn btn-lg btn-info">How to use absolute and relative for precise markup</a>
     <a href="html/stackingOfNormalAndPositioned.html" class="block btn btn-lg btn-danger">Positioned element is always on top of normal one</a>
     <a href="html/lostHeight.html" class="block btn btn-lg btn-danger">Browser draws floating elements after normal</a>
