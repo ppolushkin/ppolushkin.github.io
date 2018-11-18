@@ -8,10 +8,21 @@
     <language>en-us-ru</language>
     <managingEditor>ppolushkin@gmail.com (Pavel Polushkin)</managingEditor>
     <webMaster>ppolushkin@gmail.com (Pavel Polushkin)</webMaster>
-    <lastBuildDate>Tue, 19 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Nov 2018 00:21:24 +0300</lastBuildDate>
     
 	<atom:link href="http://ppolushkin.github.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Readme</title>
+      <link>http://ppolushkin.github.com/readme/</link>
+      <pubDate>Mon, 19 Nov 2018 00:21:24 +0300</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/readme/</guid>
+      <description>42 developer&amp;rsquo;s notes This is Hugo based resources for ppolushkin.github.com resource.
+Development Run hugo server D and open localhost:1313 site.
+Publish  Build public folder by running hugo command  hugo  Go to public folder, commit and push to ppolushkin.github.com  cd public git commit -am &amp;#39;comment&amp;#39; git push origin master  Go to root folder, commit and push this root repository  cd .. git commit -am &amp;#39;comment&amp;#39; git push origin master Code highlighting examples Golang: func env(key, defaultVal string) string { appPort, ok := os.</description>
+    </item>
     
     <item>
       <title>Backet sort</title>
