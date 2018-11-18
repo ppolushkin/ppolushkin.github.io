@@ -6,8 +6,8 @@
     <description>Recent content in Css on 42 notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us-ru</language>
-    <managingEditor>ppolushkin@gmail.com (Pavel Polushkin)</managingEditor>
-    <webMaster>ppolushkin@gmail.com (Pavel Polushkin)</webMaster>
+    <managingEditor>pavel.polushkin@gmail.com (Pavel Polushkin)</managingEditor>
+    <webMaster>pavel.polushkin@gmail.com (Pavel Polushkin)</webMaster>
     <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ppolushkin.github.com/categories/css/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +17,7 @@
       <title>Absolute and relative position</title>
       <link>http://ppolushkin.github.com/html/absolute_and_relative/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/html/absolute_and_relative/</guid>
       <description>Here is an example how relative and absolute works together.  An absolutely positioned element is actually placed relative to the boundaries of its closest positioned (~ relative positioned) ancestor  More info: https://www.safaribooksonline.com/library/view/css3-the-missing/9781449339456/ch15.html   &amp;lt;!DOCTYPE html &amp;lt;html &amp;lt;head &amp;lt;meta charset=&#34;UTF-8&#34; &amp;lt;titleStacking and float&amp;lt;/title &amp;lt;styletype=&#34;text/css&#34; .c { float: left; position: relative; width: 100px; height: 100px; opacity: 0.75; background-color: #00b3ee; border: 1px dashed #999966; margin: 10px; } img { width: 50px; height: 50px; border-radius: 50%; position: absolute; top: 30px; right: 30px; } &amp;lt;/style &amp;lt;/head &amp;lt;body &amp;lt;div class=&#39;p&#39; &amp;lt;div class=&#34;</description>
     </item>
@@ -26,7 +26,7 @@
       <title>CSS Box model</title>
       <link>http://ppolushkin.github.com/html/box/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/html/box/</guid>
       <description>  Box model CSS  More info in MDN   </description>
     </item>
@@ -35,7 +35,7 @@
       <title>CSS Position property</title>
       <link>http://ppolushkin.github.com/html/position/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/html/position/</guid>
       <description>By default uses Static position. The CSS position property lets you control how and where a web browser displays particular elements. Using position, you can, for example, place a sidebar anywhere you wish on a page or make sure a navigation bar at the top of the page stays in place even when visitors scroll down the page. CSS offers four types of positioning:
 Absolute. Absolute positioning lets you determine an element&amp;rsquo;s location by specifying a left, right, top, or bottom position in pixels, ems, or percentages.</description>
@@ -45,7 +45,7 @@ Absolute. Absolute positioning lets you determine an element&amp;rsquo;s locatio
       <title>CSS Shadow</title>
       <link>http://ppolushkin.github.com/html/box_shadow/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/html/box_shadow/</guid>
       <description>  Try it in jsbin.com </description>
     </item>
@@ -54,7 +54,7 @@ Absolute. Absolute positioning lets you determine an element&amp;rsquo;s locatio
       <title>Display</title>
       <link>http://ppolushkin.github.com/html/display/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/html/display/</guid>
       <description>A block-level tag creates a break before and after it. The &amp;lt;p&amp;gt; tag, for example, creates a block that&amp;rsquo;s separated from tags above and below. Headlines, &amp;lt;div&amp;gt; tags, tables, lists, and list items are other examples of block-level tags.
 Inline tags don&amp;rsquo;t create a break before or after them. They appear on the same line as the content and tags beside them. The &amp;lt;strong&amp;gt; tag is an inline tag. A word formatted with this tag happily sits next to other text&amp;mdash;even text wrapped in other inline tags like &amp;lt;em&amp;gt;.</description>
@@ -64,7 +64,7 @@ Inline tags don&amp;rsquo;t create a break before or after them. They appear on 
       <title>Lost height</title>
       <link>http://ppolushkin.github.com/html/broken_background/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/html/broken_background/</guid>
       <description>To the consternation of many web designers, backgrounds and borders don&amp;rsquo;t react to floated elements the same way content does. Say you float an element&amp;mdash;a sidebar for example&amp;mdash;to the right. The content below the sidebar moves up and wraps around it, just as it should. But if that content has a background or border set on it, then that background or border actually appears underneath the floated sidebar (Figure&amp;nbsp;7-16, left). In essence, a web browser wraps the text around the float, but not the border or background.</description>
     </item>
@@ -73,7 +73,7 @@ Inline tags don&amp;rsquo;t create a break before or after them. They appear on 
       <title>Lost height</title>
       <link>http://ppolushkin.github.com/html/lost_height/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/html/lost_height/</guid>
       <description>Here is demonstration how to fix height of div .p. The problem is that browser firstly draw &#34;normal&#34; elements (div .p) and then &#34;float&#34; ones (which is div .c in example).  That&#39;s why without tricky hack with .p:after height of .p is zero!  More information is here: http://getbootstrap.com/css/#helper-classes-clearfix   &amp;lt;!DOCTYPE html &amp;lt;html &amp;lt;head &amp;lt;meta charset=&#34;UTF-8&#34; &amp;lt;titlep div height is zero&amp;lt;/title &amp;lt;style type=&#34;text/css&#34; .p { opacity: 1; background-color: #22b333; border: 1px dashed #999966; } .</description>
     </item>
@@ -82,7 +82,7 @@ Inline tags don&amp;rsquo;t create a break before or after them. They appear on 
       <title>Stacking of normal and positioned elements</title>
       <link>http://ppolushkin.github.com/html/stacking_of_normal_and_positioned/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/html/stacking_of_normal_and_positioned/</guid>
       <description>Positioned (absolute, relative, Fixed) elements are always on top of normal (static)  More info:   https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index/Stacking_without_z-index   https://www.safaribooksonline.com/library/view/css3-the-missing/9781449339456/ch15.html#stacking_elements     &amp;lt;!DOCTYPE html &amp;lt;html &amp;lt;head &amp;lt;meta charset=&#34;UTF-8&#34; &amp;lt;titleStacking without z-index&amp;lt;/title &amp;lt;styletype=&#34;text/css&#34; .a { height: 100px; width: 100px; opacity: 1; background-color: #22b333; border: 1px dashed #999966; position: absolute; left: 90px; top: 20px; } .a:before { content: &#39;i am absolute or positioned&#39;; } .n { height: 100px; width: 100px; opacity: 1; background-color: #999966; border: 1px dashed #999966; } .</description>
     </item>
@@ -91,7 +91,7 @@ Inline tags don&amp;rsquo;t create a break before or after them. They appear on 
       <title>Understand float property</title>
       <link>http://ppolushkin.github.com/html/float/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/html/float/</guid>
       <description>HTML normally flows from the top of the browser window down to the bottom, one headline, paragraph, or block-level element on top of another. This word-processor&amp;ndash;like display is visually boring (Figure, top), but with CSS, you&amp;rsquo;re far from stuck with it. You&amp;rsquo;ll learn lots of new methods for arranging items on a web page in Part 3, but you can spice up your pages plenty with one little CSS property&amp;mdash;float.</description>
     </item>

@@ -6,8 +6,8 @@
     <description>Recent content in Sorting in Linear Time on 42 notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us-ru</language>
-    <managingEditor>ppolushkin@gmail.com (Pavel Polushkin)</managingEditor>
-    <webMaster>ppolushkin@gmail.com (Pavel Polushkin)</webMaster>
+    <managingEditor>pavel.polushkin@gmail.com (Pavel Polushkin)</managingEditor>
+    <webMaster>pavel.polushkin@gmail.com (Pavel Polushkin)</webMaster>
     <lastBuildDate>Tue, 19 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ppolushkin.github.com/tags/sorting-in-linear-time/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +17,7 @@
       <title>Backet sort</title>
       <link>http://ppolushkin.github.com/html/bucket_sort/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
-      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/html/bucket_sort/</guid>
       <description> </description>
     </item>
@@ -26,7 +26,7 @@
       <title>Radix Sort</title>
       <link>http://ppolushkin.github.com/html/radix_sort/</link>
       <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
-      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/html/radix_sort/</guid>
       <description>  </description>
     </item>
@@ -35,7 +35,7 @@
       <title>Counting Sort</title>
       <link>http://ppolushkin.github.com/html/counting_sort/</link>
       <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
-      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/html/counting_sort/</guid>
       <description> </description>
     </item>
