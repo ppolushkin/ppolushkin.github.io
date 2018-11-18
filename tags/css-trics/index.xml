@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css Trics on 42 notes</title>
+    <link>http://ppolushkin.github.com/tags/css-trics/</link>
+    <description>Recent content in Css Trics on 42 notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us-ru</language>
+    <managingEditor>ppolushkin@gmail.com (Pavel Polushkin)</managingEditor>
+    <webMaster>ppolushkin@gmail.com (Pavel Polushkin)</webMaster>
+    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ppolushkin.github.com/tags/css-trics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lost height</title>
+      <link>http://ppolushkin.github.com/html/broken_background/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/broken_background/</guid>
+      <description>To the consternation of many web designers, backgrounds and borders don&amp;rsquo;t react to floated elements the same way content does. Say you float an element&amp;mdash;a sidebar for example&amp;mdash;to the right. The content below the sidebar moves up and wraps around it, just as it should. But if that content has a background or border set on it, then that background or border actually appears underneath the floated sidebar (Figure&amp;nbsp;7-16, left). In essence, a web browser wraps the text around the float, but not the border or background.</description>
+    </item>
+    
+    <item>
+      <title>Lost height</title>
+      <link>http://ppolushkin.github.com/html/lost_height/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/lost_height/</guid>
+      <description>Here is demonstration how to fix height of div .p. The problem is that browser firstly draw &#34;normal&#34; elements (div .p) and then &#34;float&#34; ones (which is div .c in example).  That&#39;s why without tricky hack with .p:after height of .p is zero!  More information is here: http://getbootstrap.com/css/#helper-classes-clearfix   &amp;lt;!DOCTYPE html &amp;lt;html &amp;lt;head &amp;lt;meta charset=&#34;UTF-8&#34; &amp;lt;titlep div height is zero&amp;lt;/title &amp;lt;style type=&#34;text/css&#34; .p { opacity: 1; background-color: #22b333; border: 1px dashed #999966; } .</description>
+    </item>
+    
+    <item>
+      <title>Stacking of normal and positioned elements</title>
+      <link>http://ppolushkin.github.com/html/stacking_of_normal_and_positioned/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/stacking_of_normal_and_positioned/</guid>
+      <description>Positioned (absolute, relative, Fixed) elements are always on top of normal (static)  More info:   https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index/Stacking_without_z-index   https://www.safaribooksonline.com/library/view/css3-the-missing/9781449339456/ch15.html#stacking_elements     &amp;lt;!DOCTYPE html &amp;lt;html &amp;lt;head &amp;lt;meta charset=&#34;UTF-8&#34; &amp;lt;titleStacking without z-index&amp;lt;/title &amp;lt;styletype=&#34;text/css&#34; .a { height: 100px; width: 100px; opacity: 1; background-color: #22b333; border: 1px dashed #999966; position: absolute; left: 90px; top: 20px; } .a:before { content: &#39;i am absolute or positioned&#39;; } .n { height: 100px; width: 100px; opacity: 1; background-color: #999966; border: 1px dashed #999966; } .</description>
+    </item>
+    
+  </channel>
+</rss>

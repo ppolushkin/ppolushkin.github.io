@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Математика on 42 notes</title>
+    <link>http://ppolushkin.github.com/categories/%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/</link>
+    <description>Recent content in Математика on 42 notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us-ru</language>
+    <managingEditor>ppolushkin@gmail.com (Pavel Polushkin)</managingEditor>
+    <webMaster>ppolushkin@gmail.com (Pavel Polushkin)</webMaster>
+    <lastBuildDate>Fri, 18 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ppolushkin.github.com/categories/%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Случайные величины</title>
+      <link>http://ppolushkin.github.com/html/prob_values/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/prob_values/</guid>
+      <description>Случайные величины  </description>
+    </item>
+    
+    <item>
+      <title>Классическое определение вероятности наступлеия случайного события</title>
+      <link>http://ppolushkin.github.com/html/probability/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/probability/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Основные формулы комбинаторики</title>
+      <link>http://ppolushkin.github.com/html/combinatorics/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/combinatorics/</guid>
+      <description>&amp;#167;&amp;nbsp;1.&amp;nbsp;Основные формулы комбинаторики В данном разделе мы займёмся подсчётом числа &amp;#171;шансов&amp;#187;. О числе шансов говорят, когда возможно несколько результатов какого-либо действия (извлечение карты из колоды, подбрасывание кубика или монетки). Число шансов&amp;nbsp;&amp;#151; это число способов проделать это действие или, что то же самое, число возможных результатов этого действия.   Теорема о перемножении шансов Пусть одно действие можно проделать пятью способами, а другое&amp;nbsp;&amp;#151; двумя. Каким числом способов можно проделать пару этих действий?</description>
+    </item>
+    
+  </channel>
+</rss>

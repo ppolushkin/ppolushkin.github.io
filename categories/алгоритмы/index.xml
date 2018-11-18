@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Алгоритмы on 42 notes</title>
+    <link>http://ppolushkin.github.com/categories/%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B/</link>
+    <description>Recent content in Алгоритмы on 42 notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us-ru</language>
+    <managingEditor>ppolushkin@gmail.com (Pavel Polushkin)</managingEditor>
+    <webMaster>ppolushkin@gmail.com (Pavel Polushkin)</webMaster>
+    <lastBuildDate>Tue, 19 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ppolushkin.github.com/categories/%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Backet sort</title>
+      <link>http://ppolushkin.github.com/html/bucket_sort/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/bucket_sort/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Radix Sort</title>
+      <link>http://ppolushkin.github.com/html/radix_sort/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/radix_sort/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Counting Sort</title>
+      <link>http://ppolushkin.github.com/html/counting_sort/</link>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/counting_sort/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Quick sort</title>
+      <link>http://ppolushkin.github.com/html/quick_sort/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/quick_sort/</guid>
+      <description> Quick sort Divide and conquer Partitioning array Worst case partition Best case partition Real life partition According to book average partition is more likely Best-case.  Randomized version of quickSort  </description>
+    </item>
+    
+    <item>
+      <title>Merge Sort</title>
+      <link>http://ppolushkin.github.com/html/merge_sort/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/merge_sort/</guid>
+      <description>Overall idea Merge principle Our MERGE procedure takes time O(n), where n is the total number of elements being merged, and it works as follows. Returning to our card- playing motif, suppose we have two piles of cards face up on a table. Each pile is sorted, with the smallest cards on top. We wish to merge the two piles into a single sorted output pile, which is to be face down on the table.</description>
+    </item>
+    
+    <item>
+      <title>Heap Sort</title>
+      <link>http://ppolushkin.github.com/html/heap_sort/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/heap_sort/</guid>
+      <description> Heap Maintaining the heap property Building the heap Heap sort algorithm Priority queue  </description>
+    </item>
+    
+    <item>
+      <title>Insertion Sort</title>
+      <link>http://ppolushkin.github.com/html/insertion_sort/</link>
+      <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/insertion_sort/</guid>
+      <description>static void insertSort(int[] dest) { int low = 0; int high = dest.length; for (int i = low; i &amp;lt; high; i++) { for (int j = i; j  low &amp;amp;&amp;amp; dest[j - 1]  dest[j]; j--) { swap(dest, j, j - 1); } } } static void swap(int dest[], int l, int r) { int t = dest[l]; dest[l] = dest[r]; dest[r] = t; }    Data structure Array   Worst-case performance О(n2) comparisons, swaps   Best-case performance O(n) comparisons, O(1) swaps   Average performance О(n2) comparisons, swaps   Worst-case space complexity О(n) total, O(1) auxiliary   Possible improvement Insert position can be find by binary search.</description>
+    </item>
+    
+    <item>
+      <title>Comparision Sorts</title>
+      <link>http://ppolushkin.github.com/html/comparision_sorts/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/comparision_sorts/</guid>
+      <description>Comparision sorts Lower bounds for comparision sorts The decision tree model Compare algorithms Some thoughts about algorithms  </description>
+    </item>
+    
+    <item>
+      <title>Asymptotic Notations</title>
+      <link>http://ppolushkin.github.com/html/asymptotic_notations/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/asymptotic_notations/</guid>
+      <description>    </description>
+    </item>
+    
+  </channel>
+</rss>

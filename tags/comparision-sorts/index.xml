@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comparision Sorts on 42 notes</title>
+    <link>http://ppolushkin.github.com/tags/comparision-sorts/</link>
+    <description>Recent content in Comparision Sorts on 42 notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us-ru</language>
+    <managingEditor>ppolushkin@gmail.com (Pavel Polushkin)</managingEditor>
+    <webMaster>ppolushkin@gmail.com (Pavel Polushkin)</webMaster>
+    <lastBuildDate>Fri, 15 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ppolushkin.github.com/tags/comparision-sorts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quick sort</title>
+      <link>http://ppolushkin.github.com/html/quick_sort/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/quick_sort/</guid>
+      <description> Quick sort Divide and conquer Partitioning array Worst case partition Best case partition Real life partition According to book average partition is more likely Best-case.  Randomized version of quickSort  </description>
+    </item>
+    
+    <item>
+      <title>Merge Sort</title>
+      <link>http://ppolushkin.github.com/html/merge_sort/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/merge_sort/</guid>
+      <description>Overall idea Merge principle Our MERGE procedure takes time O(n), where n is the total number of elements being merged, and it works as follows. Returning to our card- playing motif, suppose we have two piles of cards face up on a table. Each pile is sorted, with the smallest cards on top. We wish to merge the two piles into a single sorted output pile, which is to be face down on the table.</description>
+    </item>
+    
+    <item>
+      <title>Comparision Sorts</title>
+      <link>http://ppolushkin.github.com/html/comparision_sorts/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      <author>ppolushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/html/comparision_sorts/</guid>
+      <description>Comparision sorts Lower bounds for comparision sorts The decision tree model Compare algorithms Some thoughts about algorithms  </description>
+    </item>
+    
+  </channel>
+</rss>
