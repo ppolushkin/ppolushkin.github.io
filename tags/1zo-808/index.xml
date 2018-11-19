@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1zo 808 on 42 notes</title>
+    <link>http://ppolushkin.github.com/tags/1zo-808/</link>
+    <description>Recent content in 1zo 808 on 42 notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us-ru</language>
+    <managingEditor>pavel.polushkin@gmail.com (Pavel Polushkin)</managingEditor>
+    <webMaster>pavel.polushkin@gmail.com (Pavel Polushkin)</webMaster>
+    <lastBuildDate>Mon, 19 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ppolushkin.github.com/tags/1zo-808/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Operators and Decision Constructs</title>
+      <link>http://ppolushkin.github.com/java_operators/</link>
+      <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/java_operators/</guid>
+      <description>Java Operators == Comparing of primitives compared by values
+char c = 100; int i = 100; System.out.println(c==i);//Prints true Comparing of primitive with wrapper unwrap wrapper and compare by values;
+char c = 100; Integer i = 100; System.out.println(c==i);//Prints true If the operands of an equality operator are both of either reference type or the null type, then the operation is object equality.
+ It is a compile-time error if it is impossible to convert the type of either operand to the type of the other by a casting conversion (§5.</description>
+    </item>
+    
+  </channel>
+</rss>

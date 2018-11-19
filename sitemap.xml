@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://ppolushkin.github.com/java_operators/</loc>
+    <lastmod>2018-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ppolushkin.github.com/readme/</loc>
     <lastmod>2018-11-19T00:21:24+03:00</lastmod>
   </url>
@@ -114,7 +119,13 @@
   
   <url>
     <loc>http://ppolushkin.github.com/</loc>
-    <lastmod>2018-11-19T00:21:24+03:00</lastmod>
+    <lastmod>2018-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/tags/1zo-808/</loc>
+    <lastmod>2018-11-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -153,6 +164,12 @@
   </url>
   
   <url>
+    <loc>http://ppolushkin.github.com/categories/java/</loc>
+    <lastmod>2018-11-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ppolushkin.github.com/tags/sorting-in-linear-time/</loc>
     <lastmod>2018-06-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -160,7 +177,7 @@
   
   <url>
     <loc>http://ppolushkin.github.com/tags/</loc>
-    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

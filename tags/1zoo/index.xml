@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1zoo on 42 notes</title>
+    <link>http://ppolushkin.github.com/tags/1zoo/</link>
+    <description>Recent content in 1zoo on 42 notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us-ru</language>
+    <managingEditor>pavel.polushkin@gmail.com (Pavel Polushkin)</managingEditor>
+    <webMaster>pavel.polushkin@gmail.com (Pavel Polushkin)</webMaster>
+    <lastBuildDate>Mon, 19 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ppolushkin.github.com/tags/1zoo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Operators and Decision Constructs</title>
+      <link>http://ppolushkin.github.com/java_operators/</link>
+      <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/java_operators/</guid>
+      <description>java Operators</description>
+    </item>
+    
+  </channel>
+</rss>
