@@ -8,10 +8,19 @@
     <language>en-us-ru</language>
     <managingEditor>pavel.polushkin@gmail.com (Pavel Polushkin)</managingEditor>
     <webMaster>pavel.polushkin@gmail.com (Pavel Polushkin)</webMaster>
-    <lastBuildDate>Mon, 19 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ppolushkin.github.com/categories/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java data types</title>
+      <link>http://ppolushkin.github.com/java_types/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/java_types/</guid>
+      <description>Java primitives    Keyword Type Min Max Example Hint     boolean        byte 8-bit Integer -127 128 42    short 16-bit Integer -36768 36767 42    int 32-bit integer -2^31 2^31-1 42    long 64-bit integer -2^64 2^64-1 42L *   float 32-bit floating point value   37.0f, 3.7e2F **, ***   double 64-bit floating point value   37.</description>
+    </item>
     
     <item>
       <title>Operators and Decision Constructs</title>
