@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>CLI - 42 notes</title>
+  <meta property="og:title" content="CLI" />
+  <meta name="twitter:title" content="CLI" />
+  <meta name="description" content="Microsoft tutorial-manage-vm
+Pluralsight course
+#Installing for other OSs is available here: #https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest #Login interactively and set a subscription to be the current active subscription az login --subscription &#34;Demonstration Account&#34; #Let&#39;s create a Linux VM, starting off with creating a Resource Group. #1 - Create a resource group, then query the list of resource groups in our subscription az group create \  --name &#34;psdemo-rg&#34; \  --location &#34;centralus&#34; az group list -o table #2 - Create virtual network (vnet) and Subnet az network vnet create \  --resource-group &#34;psdemo-rg&#34; \  --name &#34;psdemo-vnet-1&#34; \  --address-prefix &#34;10.">
+  <meta property="og:description" content="Microsoft tutorial-manage-vm
+Pluralsight course
+#Installing for other OSs is available here: #https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest #Login interactively and set a subscription to be the current active subscription az login --subscription &#34;Demonstration Account&#34; #Let&#39;s create a Linux VM, starting off with creating a Resource Group. #1 - Create a resource group, then query the list of resource groups in our subscription az group create \  --name &#34;psdemo-rg&#34; \  --location &#34;centralus&#34; az group list -o table #2 - Create virtual network (vnet) and Subnet az network vnet create \  --resource-group &#34;psdemo-rg&#34; \  --name &#34;psdemo-vnet-1&#34; \  --address-prefix &#34;10.">
+  <meta name="twitter:description" content="Microsoft tutorial-manage-vm
+Pluralsight course
+#Installing for other OSs is available here: #https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest #Login interactively …">
+  <meta name="author" content="Pavel Polushkin"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "42 notes",
+    
+    "url": "http://ppolushkin.github.com/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http://ppolushkin.github.com/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http://ppolushkin.github.com/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http://ppolushkin.github.com/az-cli/",
+          "name": "C l i"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Pavel Polushkin"
+  },
+  "headline": "CLI",
+  "description" : "Microsoft tutorial-manage-vm
+Pluralsight course
+#Installing for other OSs is available here: #https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest #Login interactively and set a subscription to be the current active subscription az login --subscription &amp;#34;Demonstration Account&amp;#34; #Let&amp;#39;s create a Linux VM, starting off with creating a Resource Group. #1 - Create a resource group, then query the list of resource groups in our subscription az group create \  --name &amp;#34;psdemo-rg&amp;#34; \  --location &amp;#34;centralus&amp;#34; az group list -o table #2 - Create virtual network (vnet) and Subnet az network vnet create \  --resource-group &amp;#34;psdemo-rg&amp;#34; \  --name &amp;#34;psdemo-vnet-1&amp;#34; \  --address-prefix &amp;#34;10.",
+  "inLanguage" : "en",
+  "wordCount": 570,
+  "datePublished" : "2019-02-05T00:00:00",
+  "dateModified" : "2019-02-05T00:00:00",
+  "image" : "http://ppolushkin.github.com/donotpanic.jpg",
+  "keywords" : [ "az cli, virtual machine" ],
+  "mainEntityOfPage" : "http://ppolushkin.github.com/az-cli/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http://ppolushkin.github.com/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http://ppolushkin.github.com/donotpanic.jpg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="CLI" />
+<meta property="og:description" content="Microsoft tutorial-manage-vm
+Pluralsight course
+#Installing for other OSs is available here: #https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest #Login interactively and set a subscription to be the current active subscription az login --subscription &#34;Demonstration Account&#34; #Let&#39;s create a Linux VM, starting off with creating a Resource Group. #1 - Create a resource group, then query the list of resource groups in our subscription az group create \  --name &#34;psdemo-rg&#34; \  --location &#34;centralus&#34; az group list -o table #2 - Create virtual network (vnet) and Subnet az network vnet create \  --resource-group &#34;psdemo-rg&#34; \  --name &#34;psdemo-vnet-1&#34; \  --address-prefix &#34;10.">
+<meta property="og:image" content="http://ppolushkin.github.com/donotpanic.jpg" />
+<meta property="og:url" content="http://ppolushkin.github.com/az-cli/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="42 notes" />
+  <meta name="twitter:title" content="CLI" />
+  <meta name="twitter:description" content="Microsoft tutorial-manage-vm
+Pluralsight course
+#Installing for other OSs is available here: #https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest #Login interactively …">
+  <meta name="twitter:image" content="http://ppolushkin.github.com/donotpanic.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:image" content="http://ppolushkin.github.com/donotpanic.jpg" />
+  <meta name="twitter:image" content="http://ppolushkin.github.com/donotpanic.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="http://ppolushkin.github.com/az-cli/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="42 notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="http://ppolushkin.github.com/index.xml" type="application/rss+xml" title="42 notes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://ppolushkin.github.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="http://ppolushkin.github.com/css/syntax.css" /><link rel="stylesheet" href="http://ppolushkin.github.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://ppolushkin.github.com/">42 notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Readme" href="/readme">Readme</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Categories</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories">All</a>
+                
+                  <a href="/categories/%d0%bc%d0%b0%d1%82%d0%b5%d0%bc%d0%b0%d1%82%d0%b8%d0%ba%d0%b0">Математика</a>
+                
+                  <a href="/categories/%d0%b0%d0%bb%d0%b3%d0%be%d1%80%d0%b8%d1%82%d0%bc%d1%8b">Алгоритмы</a>
+                
+                  <a href="/categories/java">Java</a>
+                
+                  <a href="/categories/css">CSS</a>
+                
+                  <a href="/categories/azure">Azure</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="42 notes" href="http://ppolushkin.github.com/">
+            <img class="avatar-img" src="http://ppolushkin.github.com/donotpanic.jpg" alt="42 notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              
+                <h1>CLI</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p><a href="https://docs.microsoft.com/ru-ru/azure/virtual-machines/linux/tutorial-manage-vm">Microsoft tutorial-manage-vm</a></p>
+
+<p><a href="https://app.pluralsight.com/player?course=microsoft-azure-virtual-machines-provisioning&amp;author=anthony-nocentino">Pluralsight course</a></p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#Installing for other OSs is available here:</span>
+<span class="c1">#https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest</span>
+
+<span class="c1">#Login interactively and set a subscription to be the current active subscription</span>
+az login --subscription <span class="s2">&#34;Demonstration Account&#34;</span>
+
+<span class="c1">#Let&#39;s create a Linux VM, starting off with creating a Resource Group.</span>
+
+<span class="c1">#1 - Create a resource group, then query the list of resource groups in our subscription</span>
+az group create <span class="se">\
+</span><span class="se"></span>    --name <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>    --location <span class="s2">&#34;centralus&#34;</span>
+
+az group list -o table
+
+<span class="c1">#2 - Create virtual network (vnet) and Subnet</span>
+az network vnet create <span class="se">\
+</span><span class="se"></span>    --resource-group <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>    --name <span class="s2">&#34;psdemo-vnet-1&#34;</span> <span class="se">\
+</span><span class="se"></span>    --address-prefix <span class="s2">&#34;10.1.0.0/16&#34;</span> <span class="se">\
+</span><span class="se"></span>    --subnet-name <span class="s2">&#34;psdemo-subnet-1&#34;</span> <span class="se">\
+</span><span class="se"></span>    --subnet-prefix <span class="s2">&#34;10.1.1.0/24&#34;</span>
+
+az network vnet list -o table
+
+<span class="c1">#3 - Create public IP address</span>
+az network public-ip create <span class="se">\
+</span><span class="se"></span>    --resource-group <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>    --name <span class="s2">&#34;psdemo-linux-1-pip-1&#34;</span>
+
+<span class="c1">#Public IPs can take a few minutes to provision, we&#39;ll check on this after we provision the VM</span>
+
+<span class="c1">#4 - Create network security group</span>
+az network nsg create <span class="se">\
+</span><span class="se"></span>    --resource-group <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>    --name <span class="s2">&#34;psdemo-linux-nsg-1&#34;</span>
+
+az network nsg list --output table
+
+<span class="c1">#5 - Create a virtual network interface and associate with public IP address and NSG</span>
+az network nic create <span class="se">\
+</span><span class="se"></span>  --resource-group <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>  --name <span class="s2">&#34;psdemo-linux-1-nic-1&#34;</span> <span class="se">\
+</span><span class="se"></span>  --vnet-name <span class="s2">&#34;psdemo-vnet-1&#34;</span> <span class="se">\
+</span><span class="se"></span>  --subnet <span class="s2">&#34;psdemo-subnet-1&#34;</span> <span class="se">\
+</span><span class="se"></span>  --network-security-group <span class="s2">&#34;psdemo-linux-nsg-1&#34;</span> <span class="se">\
+</span><span class="se"></span>  --public-ip-address <span class="s2">&#34;psdemo-linux-1-pip-1&#34;</span>
+
+az network nic list --output table
+
+<span class="c1">#6 - Create a virtual machine</span>
+az vm create <span class="se">\
+</span><span class="se"></span>    --resource-group <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>    --location <span class="s2">&#34;centralus&#34;</span> <span class="se">\
+</span><span class="se"></span>    --name <span class="s2">&#34;psdemo-linux-1&#34;</span> <span class="se">\
+</span><span class="se"></span>    --nics <span class="s2">&#34;psdemo-linux-1-nic-1&#34;</span> <span class="se">\
+</span><span class="se"></span>    --image <span class="s2">&#34;rhel&#34;</span> <span class="se">\
+</span><span class="se"></span>    --admin-username <span class="s2">&#34;demoadmin&#34;</span> <span class="se">\
+</span><span class="se"></span>    --authentication-type <span class="s2">&#34;ssh&#34;</span> <span class="se">\
+</span><span class="se"></span>    --ssh-key-value ~/.ssh/id_rsa.pub 
+
+<span class="c1">#The VM may take a few minutes to create...let&#39;s bend spacetime.</span>
+
+az vm create --help <span class="p">|</span> more 
+
+<span class="c1">#7 - Open port 22 to allow SSH traffic to host</span>
+az vm open-port <span class="se">\
+</span><span class="se"></span>    --resource-group <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>    --name <span class="s2">&#34;psdemo-linux-1&#34;</span> <span class="se">\
+</span><span class="se"></span>    --port <span class="s2">&#34;22&#34;</span>
+
+<span class="c1">#8 - Grab the public IP of the virtual machine</span>
+az vm list-ip-addresses --name <span class="s2">&#34;psdemo-linux-1&#34;</span> --output table
+
+ssh -l demoadmin <span class="m">168</span>.61.212.180
+
+<span class="c1">#Let&#39;s create a VM with minimal specifications and using default settings</span>
+<span class="c1">#1 - Quick and dirty VM creation...this will get placed onto our current vnet/subnet</span>
+az vm create <span class="se">\
+</span><span class="se"></span>    --resource-group <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>    --name <span class="s2">&#34;psdemo-linux-1a&#34;</span> <span class="se">\
+</span><span class="se"></span>    --image <span class="s2">&#34;UbuntuLTS&#34;</span> <span class="se">\
+</span><span class="se"></span>    --admin-username <span class="s2">&#34;demoadmin&#34;</span> <span class="se">\
+</span><span class="se"></span>    --authentication-type <span class="s2">&#34;ssh&#34;</span> <span class="se">\
+</span><span class="se"></span>    --ssh-key-value ~/.ssh/id_rsa.pub
+
+<span class="c1">#Take a few minutes to provision...this.Bend(SpaceTime)</span>
+
+<span class="c1">#2 - Open 22 for ssh access to the VMs,</span>
+az vm open-port <span class="se">\
+</span><span class="se"></span>    --resource-group <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>    --name <span class="s2">&#34;psdemo-linux-1a&#34;</span> <span class="se">\
+</span><span class="se"></span>    --port <span class="s2">&#34;22&#34;</span>
+
+<span class="c1">#3 - Grab the public IP of the virtual machine</span>
+az vm list-ip-addresses --name <span class="s2">&#34;psdemo-linux-1a&#34;</span> --output table
+
+ssh -l demoadmin <span class="m">23</span>.99.253.177
+
+<span class="c1">## Time to create the Windows VM ##</span>
+<span class="c1">#1 - we&#39;re going to place this server in the existing resource group.</span>
+
+<span class="c1">#2 - we&#39;re going to place this server in the same vnet</span>
+
+<span class="c1">#3 - Create public IP address</span>
+az network public-ip create <span class="se">\
+</span><span class="se"></span>    --resource-group <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>    --name <span class="s2">&#34;psdemo-win-1-pip-1&#34;</span>
+
+<span class="c1">#4 - Create network security group, so we can have seperate security policies</span>
+az network nsg create <span class="se">\
+</span><span class="se"></span>    --resource-group <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>    --name <span class="s2">&#34;psdemo-win-nsg-1&#34;</span>
+
+<span class="c1">#5 - Create a virtual network card and associate with public IP address and NSG</span>
+az network nic create <span class="se">\
+</span><span class="se"></span>  --resource-group <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>  --name <span class="s2">&#34;psdemo-win-1-nic-1&#34;</span> <span class="se">\
+</span><span class="se"></span>  --vnet-name <span class="s2">&#34;psdemo-vnet-1&#34;</span> <span class="se">\
+</span><span class="se"></span>  --subnet <span class="s2">&#34;psdemo-subnet-1&#34;</span> <span class="se">\
+</span><span class="se"></span>  --network-security-group <span class="s2">&#34;psdemo-win-nsg-1&#34;</span> <span class="se">\
+</span><span class="se"></span>  --public-ip-address <span class="s2">&#34;psdemo-win-1-pip-1&#34;</span>
+
+<span class="c1">#6 - Create a virtual machine</span>
+az vm create <span class="se">\
+</span><span class="se"></span>    --resource-group <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>    --name <span class="s2">&#34;psdemo-win-1&#34;</span> <span class="se">\
+</span><span class="se"></span>    --location <span class="s2">&#34;centralus&#34;</span> <span class="se">\
+</span><span class="se"></span>    --nics <span class="s2">&#34;psdemo-win-1-nic-1&#34;</span> <span class="se">\
+</span><span class="se"></span>    --image <span class="s2">&#34;win2016datacenter&#34;</span> <span class="se">\
+</span><span class="se"></span>    --admin-username <span class="s2">&#34;demoadmin&#34;</span> <span class="se">\
+</span><span class="se"></span>    --admin-password <span class="s2">&#34;password123412123</span>$<span class="s2">%^&amp;*&#34;</span>
+
+<span class="c1">#7 - Open port 3389 to allow RDP traffic to host</span>
+az vm open-port <span class="se">\
+</span><span class="se"></span>    --port <span class="s2">&#34;3389&#34;</span> <span class="se">\
+</span><span class="se"></span>    --resource-group <span class="s2">&#34;psdemo-rg&#34;</span> <span class="se">\
+</span><span class="se"></span>    --name <span class="s2">&#34;psdemo-win-1&#34;</span>
+
+az vm list-ip-addresses --name <span class="s2">&#34;psdemo-win-1&#34;</span>  --output table
+
+<span class="c1">#Use Remote Desktop to connect to to this VM</span></code></pre></div>
+
+        
+          <div class="blog-tags">
+            
+              <a href="http://ppolushkin.github.com//tags/az-cli/">az cli</a>&nbsp;
+            
+              <a href="http://ppolushkin.github.com//tags/virtual-machine/">virtual machine</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
+      </article>
+
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:pavel.polushkin@gmail.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/ppolushkin" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="ppolushkin.github.com">Pavel Polushkin</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://ppolushkin.github.com/">42 notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.54.0</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://ppolushkin.github.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="http://ppolushkin.github.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
+
