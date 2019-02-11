@@ -8,10 +8,49 @@
     <language>en-us-ru</language>
     <managingEditor>pavel.polushkin@gmail.com (Pavel Polushkin)</managingEditor>
     <webMaster>pavel.polushkin@gmail.com (Pavel Polushkin)</webMaster>
-    <lastBuildDate>Mon, 03 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ppolushkin.github.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Virtual disks</title>
+      <link>http://ppolushkin.github.com/az-disks/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/az-disks/</guid>
+      <description>Microsoft documentation</description>
+    </item>
+    
+    <item>
+      <title>Custom images</title>
+      <link>http://ppolushkin.github.com/az-custom-images/</link>
+      <pubDate>Sat, 09 Feb 2019 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/az-custom-images/</guid>
+      <description>Microsoft tutorial Capture linux image
+#Deprovisioning and creating a Linux custom image using Azure CLI #Ensure we&amp;#39;re using bash for this demo bash #login interactively and set a subscription to be the current active subscription az login --subscription &amp;#34;Demonstration Account&amp;#34; #Find the IP of the VM we want to build a custom image from. az vm list-ip-addresses --name &amp;#34;psdemo-linux-1&amp;#34; --output table #Connect to the virtual machine via ssh ssh demoadmin@168.</description>
+    </item>
+    
+    <item>
+      <title>CLI</title>
+      <link>http://ppolushkin.github.com/az-cli/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/az-cli/</guid>
+      <description>Microsoft tutorial-manage-vm
+Pluralsight course
+#Installing for other OSs is available here: #https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest #Login interactively and set a subscription to be the current active subscription az login --subscription &amp;#34;Demonstration Account&amp;#34; #Let&amp;#39;s create a Linux VM, starting off with creating a Resource Group. #1 - Create a resource group, then query the list of resource groups in our subscription az group create \  --name &amp;#34;psdemo-rg&amp;#34; \  --location &amp;#34;centralus&amp;#34; az group list -o table #2 - Create virtual network (vnet) and Subnet az network vnet create \  --resource-group &amp;#34;psdemo-rg&amp;#34; \  --name &amp;#34;psdemo-vnet-1&amp;#34; \  --address-prefix &amp;#34;10.</description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>http://ppolushkin.github.com/network/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/network/</guid>
+      <description>Еще раз про IP-адреса, маски подсетей и вообще</description>
+    </item>
     
     <item>
       <title>Java data types</title>
