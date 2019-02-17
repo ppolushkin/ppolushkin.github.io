@@ -19,7 +19,8 @@
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/az-disks/</guid>
-      <description>Microsoft documentation</description>
+      <description>Microsoft documentation
+az vm disk attach &amp;ndash;resource-group &amp;ldquo;psdemo-rg&amp;rdquo; &amp;ndash;vm-name &amp;ldquo;psdemo-linux-2&amp;rdquo; &amp;ndash;name &amp;ldquo;psdemo-linux-2-st0&amp;rdquo; &amp;ndash;new &amp;ndash;size-gb 25 &amp;ndash;sku &amp;ldquo;Premium_LRS&amp;rdquo; #Other options are StandardSSD_LRS and Standard_LRS</description>
     </item>
     
     <item>
