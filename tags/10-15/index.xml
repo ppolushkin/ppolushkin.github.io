@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>10 15 on 42 notes</title>
+    <link>http://ppolushkin.github.com/tags/10-15/</link>
+    <description>Recent content in 10 15 on 42 notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us-ru</language>
+    <managingEditor>pavel.polushkin@gmail.com (Pavel Polushkin)</managingEditor>
+    <webMaster>pavel.polushkin@gmail.com (Pavel Polushkin)</webMaster>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ppolushkin.github.com/tags/10-15/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Develop IAS</title>
+      <link>http://ppolushkin.github.com/azure-ias/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/azure-ias/</guid>
+      <description>Implement solutions that use virtual machines (VM) Provision VMs Azure VM
+Linux VM azure cli
+Create ARM templates Azure Resource Manager overview*
+Understand the structure and syntax of Azure Resource Manager templates*
+Template best practices
+Configure Azure Disk Encryption for VMs Disk encription ovetview
+Prerequisites
+Turn encription on
+Implement batch jobs by using Azure Batch Services Manage batch jobs by using Batch Service API Main page
+How it works *</description>
+    </item>
+    
+  </channel>
+</rss>
