@@ -8,13 +8,22 @@
     <language>en-us-ru</language>
     <managingEditor>pavel.polushkin@gmail.com (Pavel Polushkin)</managingEditor>
     <webMaster>pavel.polushkin@gmail.com (Pavel Polushkin)</webMaster>
-    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ppolushkin.github.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>10 15</title>
+      <title>dotNet</title>
+      <link>http://ppolushkin.github.com/tags/dotnet/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>10%-15%</title>
       <link>http://ppolushkin.github.com/tags/10-15/</link>
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
@@ -23,16 +32,7 @@
     </item>
     
     <item>
-      <title>1zo 808</title>
-      <link>http://ppolushkin.github.com/tags/1zo-808/</link>
-      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
-      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
-      <guid>http://ppolushkin.github.com/tags/1zo-808/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Az Cli</title>
+      <title>az cli</title>
       <link>http://ppolushkin.github.com/tags/az-cli/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
@@ -41,43 +41,16 @@
     </item>
     
     <item>
-      <title>Cidr Notation</title>
-      <link>http://ppolushkin.github.com/tags/cidr-notation/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <title>virtual machine</title>
+      <link>http://ppolushkin.github.com/tags/virtual-machine/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
-      <guid>http://ppolushkin.github.com/tags/cidr-notation/</guid>
+      <guid>http://ppolushkin.github.com/tags/virtual-machine/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Comparision Sorts</title>
-      <link>http://ppolushkin.github.com/tags/comparision-sorts/</link>
-      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
-      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
-      <guid>http://ppolushkin.github.com/tags/comparision-sorts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Css Basic</title>
-      <link>http://ppolushkin.github.com/tags/css-basic/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
-      <guid>http://ppolushkin.github.com/tags/css-basic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Css Trics</title>
-      <link>http://ppolushkin.github.com/tags/css-trics/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
-      <guid>http://ppolushkin.github.com/tags/css-trics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Custom Image</title>
+      <title>custom image</title>
       <link>http://ppolushkin.github.com/tags/custom-image/</link>
       <pubDate>Sat, 09 Feb 2019 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
@@ -86,20 +59,20 @@
     </item>
     
     <item>
-      <title>Ip Address</title>
-      <link>http://ppolushkin.github.com/tags/ip-address/</link>
+      <title>CIDR notation</title>
+      <link>http://ppolushkin.github.com/tags/cidr-notation/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
-      <guid>http://ppolushkin.github.com/tags/ip-address/</guid>
+      <guid>http://ppolushkin.github.com/tags/cidr-notation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sorting in Linear Time</title>
-      <link>http://ppolushkin.github.com/tags/sorting-in-linear-time/</link>
-      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      <title>IP address</title>
+      <link>http://ppolushkin.github.com/tags/ip-address/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
-      <guid>http://ppolushkin.github.com/tags/sorting-in-linear-time/</guid>
+      <guid>http://ppolushkin.github.com/tags/ip-address/</guid>
       <description></description>
     </item>
     
@@ -113,20 +86,56 @@
     </item>
     
     <item>
-      <title>Virtual Machine</title>
-      <link>http://ppolushkin.github.com/tags/virtual-machine/</link>
-      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      <title>1zo-808</title>
+      <link>http://ppolushkin.github.com/tags/1zo-808/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
-      <guid>http://ppolushkin.github.com/tags/virtual-machine/</guid>
+      <guid>http://ppolushkin.github.com/tags/1zo-808/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Теория Вероятностей</title>
+      <title>Sorting in linear time</title>
+      <link>http://ppolushkin.github.com/tags/sorting-in-linear-time/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/tags/sorting-in-linear-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparision Sorts</title>
+      <link>http://ppolushkin.github.com/tags/comparision-sorts/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/tags/comparision-sorts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Теория вероятностей</title>
       <link>http://ppolushkin.github.com/tags/%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F-%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9/</link>
       <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/tags/%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F-%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css basic</title>
+      <link>http://ppolushkin.github.com/tags/css-basic/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/tags/css-basic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css trics</title>
+      <link>http://ppolushkin.github.com/tags/css-trics/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/tags/css-trics/</guid>
       <description></description>
     </item>
     

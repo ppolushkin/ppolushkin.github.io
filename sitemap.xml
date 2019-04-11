@@ -3,6 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://ppolushkin.github.com/</loc>
+    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/categories/az-203/</loc>
+    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/dotnet/</loc>
+    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/categories/</loc>
+    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/tags/</loc>
+    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/tags/dotnet/</loc>
+    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/tags/10-15/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ppolushkin.github.com/azure-security/</loc>
     <lastmod>2019-03-19T00:00:00+00:00</lastmod>
   </url>
@@ -13,8 +54,26 @@
   </url>
   
   <url>
+    <loc>http://ppolushkin.github.com/categories/azure/</loc>
+    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ppolushkin.github.com/az-disks/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/tags/az-cli/</loc>
+    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/tags/virtual-machine/</loc>
+    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -23,8 +82,26 @@
   </url>
   
   <url>
+    <loc>http://ppolushkin.github.com/tags/custom-image/</loc>
+    <lastmod>2019-02-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/tags/cidr-notation/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ppolushkin.github.com/az-cli/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/tags/ip-address/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -33,8 +110,26 @@
   </url>
   
   <url>
+    <loc>http://ppolushkin.github.com/tags/subnet/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/tags/1zo-808/</loc>
+    <lastmod>2018-12-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ppolushkin.github.com/java_types/</loc>
     <lastmod>2018-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/categories/java/</loc>
+    <lastmod>2018-12-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -53,6 +148,24 @@
   </url>
   
   <url>
+    <loc>http://ppolushkin.github.com/html/</loc>
+    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/tags/sorting-in-linear-time/</loc>
+    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/categories/%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B/</loc>
+    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ppolushkin.github.com/html/radix_sort/</loc>
     <lastmod>2018-06-18T00:00:00+00:00</lastmod>
   </url>
@@ -60,6 +173,12 @@
   <url>
     <loc>http://ppolushkin.github.com/html/counting_sort/</loc>
     <lastmod>2018-06-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/tags/comparision-sorts/</loc>
+    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -93,8 +212,20 @@
   </url>
   
   <url>
+    <loc>http://ppolushkin.github.com/categories/%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/</loc>
+    <lastmod>2018-05-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ppolushkin.github.com/html/prob_values/</loc>
     <lastmod>2018-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ppolushkin.github.com/tags/%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F-%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9/</loc>
+    <lastmod>2018-05-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -153,59 +284,6 @@
   </url>
   
   <url>
-    <loc>http://ppolushkin.github.com/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/tags/10-15/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/tags/1zo-808/</loc>
-    <lastmod>2018-12-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/categories/az-203/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/tags/az-cli/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/categories/azure/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/categories/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/tags/cidr-notation/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/tags/comparision-sorts/</loc>
-    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://ppolushkin.github.com/categories/css/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -220,72 +298,6 @@
   <url>
     <loc>http://ppolushkin.github.com/tags/css-trics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/tags/custom-image/</loc>
-    <lastmod>2019-02-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/html/</loc>
-    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/tags/ip-address/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/categories/java/</loc>
-    <lastmod>2018-12-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/tags/sorting-in-linear-time/</loc>
-    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/tags/subnet/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/tags/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/tags/virtual-machine/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/categories/%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B/</loc>
-    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/categories/%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/</loc>
-    <lastmod>2018-05-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ppolushkin.github.com/tags/%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F-%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9/</loc>
-    <lastmod>2018-05-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

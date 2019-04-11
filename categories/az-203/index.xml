@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Az 203 on 42 notes</title>
+    <title>AZ-203 on 42 notes</title>
     <link>http://ppolushkin.github.com/categories/az-203/</link>
-    <description>Recent content in Az 203 on 42 notes</description>
+    <description>Recent content in AZ-203 on 42 notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us-ru</language>
     <managingEditor>pavel.polushkin@gmail.com (Pavel Polushkin)</managingEditor>
     <webMaster>pavel.polushkin@gmail.com (Pavel Polushkin)</webMaster>
-    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ppolushkin.github.com/categories/az-203/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C# for Dummies</title>
+      <link>http://ppolushkin.github.com/dotnet/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/dotnet/</guid>
+      <description>  install dotnet create app dotnet new console -o myApp run app cd myApp; dotnet run install Visual Studio Code install C# for VIsual Studio Code extension by Microsoft install C# Extensions extension In case of issue add a file omnisharp.json into project root. Now you can debug.  omnisharp.json { &amp;#34;MsBuild&amp;#34;: { &amp;#34;UseLegacySdkResolver&amp;#34;: true } }</description>
+    </item>
     
     <item>
       <title>Implement Azure Security</title>

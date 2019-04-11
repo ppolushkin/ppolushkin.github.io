@@ -8,15 +8,15 @@
     <language>en-us-ru</language>
     <managingEditor>pavel.polushkin@gmail.com (Pavel Polushkin)</managingEditor>
     <webMaster>pavel.polushkin@gmail.com (Pavel Polushkin)</webMaster>
-    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ppolushkin.github.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Az 203</title>
+      <title>AZ-203</title>
       <link>http://ppolushkin.github.com/categories/az-203/</link>
-      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/categories/az-203/</guid>
       <description></description>
@@ -32,16 +32,7 @@
     </item>
     
     <item>
-      <title>Css</title>
-      <link>http://ppolushkin.github.com/categories/css/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
-      <guid>http://ppolushkin.github.com/categories/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Java</title>
+      <title>java</title>
       <link>http://ppolushkin.github.com/categories/java/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
@@ -64,6 +55,15 @@
       <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/categories/%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>http://ppolushkin.github.com/categories/css/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/categories/css/</guid>
       <description></description>
     </item>
     
