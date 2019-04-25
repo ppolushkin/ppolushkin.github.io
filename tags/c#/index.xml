@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C# on 42 notes</title>
+    <link>http://ppolushkin.github.com/tags/c#/</link>
+    <description>Recent content in C# on 42 notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us-ru</language>
+    <managingEditor>pavel.polushkin@gmail.com (Pavel Polushkin)</managingEditor>
+    <webMaster>pavel.polushkin@gmail.com (Pavel Polushkin)</webMaster>
+    <lastBuildDate>Thu, 25 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ppolushkin.github.com/tags/c#/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>C# for stupid</title>
+      <link>http://ppolushkin.github.com/csharp-for-stupid/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
+      <guid>http://ppolushkin.github.com/csharp-for-stupid/</guid>
+      <description>RTFM
+Типы данных</description>
+    </item>
+    
+  </channel>
+</rss>
