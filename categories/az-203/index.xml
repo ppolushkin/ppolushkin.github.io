@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AZ-203 on 42 notes</title>
@@ -33,7 +33,7 @@ How to creaate web API app</description>
       <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/dotnet/</guid>
-      <description>install dotnet create app dotnet new console -o myApp run app cd myApp; dotnet run install Visual Studio Code install C# for Visual Studio Code extension by Microsoft install C# Extensions extension In case of issue add a file omnisharp.json into project root. Now you can debug.  omnisharp.json { &amp;#34;MsBuild&amp;#34;: { &amp;#34;UseLegacySdkResolver&amp;#34;: true } }  if navigation to declaration is not working Use ctrl-shift-P and select &amp;ldquo;OmniSharp: Select Project&amp;rdquo; to select the correct project.</description>
+      <description>install dotnet create app dotnet new console -o myApp run app cd myApp; dotnet run install Visual Studio Code install C# for Visual Studio Code extension by Microsoft install C# Extensions extension In case of issue add a file omnisharp.json into project root. Now you can debug.  omnisharp.json { &amp;#34;MsBuild&amp;#34;: { &amp;#34;UseLegacySdkResolver&amp;#34;: true } }   if navigation to declaration is not working Use ctrl-shift-P and select &amp;ldquo;OmniSharp: Select Project&amp;rdquo; to select the correct project.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ How to creaate web API app</description>
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/azure-security/</guid>
-      <description> Documentation  Azure AD main page todo! Auth scenarios Microsoft Graph: MFA Managed identities Key Vault  Topics: Implement authentication  implement authentication by using certificates, forms-based authentication, or tokens implement multi-factor or Windows authentication by using Azure AD implement OAuth2 authentication implement Managed Service Identity (MSI)/Service Principal authentication  Implement access control  implement CBAC (Claims-Based Access Control) authorization implement RBAC (Role-Based Access Control) authorization create shared access signatures  Implement secure data solutions  encrypt and decrypt data at rest and in transit create, read, update, and delete keys, secrets, and certificates by using the KeyVault API  </description>
+      <description>Documentation  Azure AD main page todo! Auth scenarios Microsoft Graph: MFA Managed identities Key Vault  Topics: Implement authentication  implement authentication by using certificates, forms-based authentication, or tokens implement multi-factor or Windows authentication by using Azure AD implement OAuth2 authentication implement Managed Service Identity (MSI)/Service Principal authentication  Implement access control  implement CBAC (Claims-Based Access Control) authorization implement RBAC (Role-Based Access Control) authorization create shared access signatures  Implement secure data solutions  encrypt and decrypt data at rest and in transit create, read, update, and delete keys, secrets, and certificates by using the KeyVault API  </description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@ How to creaate web API app</description>
       <description>Implement solutions that use virtual machines (VM) Provision VMs Azure VM
 Linux VM azure cli
 Create ARM templates Azure Resource Manager overview*
-Understand the structure and syntax of Azure Resource Manager templates*
+[Understand the structure and syntax of Azure Resource Manager templates*] (https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates)
 Template best practices
 Configure Azure Disk Encryption for VMs Disk encription ovetview
 Prerequisites

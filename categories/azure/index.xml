@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Azure on 42 notes</title>
@@ -20,7 +20,13 @@
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/az-disks/</guid>
       <description>Microsoft documentation
-az vm disk attach &amp;ndash;resource-group &amp;ldquo;psdemo-rg&amp;rdquo; &amp;ndash;vm-name &amp;ldquo;psdemo-linux-2&amp;rdquo; &amp;ndash;name &amp;ldquo;psdemo-linux-2-st0&amp;rdquo; &amp;ndash;new &amp;ndash;size-gb 25 &amp;ndash;sku &amp;ldquo;Premium_LRS&amp;rdquo; #Other options are StandardSSD_LRS and Standard_LRS</description>
+az vm disk attach
+&amp;ndash;resource-group &amp;ldquo;psdemo-rg&amp;rdquo;
+&amp;ndash;vm-name &amp;ldquo;psdemo-linux-2&amp;rdquo;
+&amp;ndash;name &amp;ldquo;psdemo-linux-2-st0&amp;rdquo;
+&amp;ndash;new
+&amp;ndash;size-gb 25
+&amp;ndash;sku &amp;ldquo;Premium_LRS&amp;rdquo; #Other options are StandardSSD_LRS and Standard_LRS</description>
     </item>
     
     <item>
@@ -30,7 +36,7 @@ az vm disk attach &amp;ndash;resource-group &amp;ldquo;psdemo-rg&amp;rdquo; &amp
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/az-custom-images/</guid>
       <description>Microsoft tutorial Capture linux image
-#Deprovisioning and creating a Linux custom image using Azure CLI #Ensure we&amp;#39;re using bash for this demo bash #login interactively and set a subscription to be the current active subscription az login --subscription &amp;#34;Demonstration Account&amp;#34; #Find the IP of the VM we want to build a custom image from. az vm list-ip-addresses --name &amp;#34;psdemo-linux-1&amp;#34; --output table #Connect to the virtual machine via ssh ssh demoadmin@168.</description>
+#Deprovisioning and creating a Linux custom image using Azure CLI #Ensure we&amp;#39;re using bash for this demo bash #login interactively and set a subscription to be the current active subscription az login --subscription &amp;#34;Demonstration Account&amp;#34; #Find the IP of the VM we want to build a custom image from. az vm list-ip-addresses --name &amp;#34;psdemo-linux-1&amp;#34; --output table #Connect to the virtual machine via ssh ssh demoadmin@168.61.212.180 #Deprovision the virtual machine sudo waagent -deprovision+user -force #log out of the VM exit #In Azure CLI, deallocate the virtual machine az vm deallocate \  --resource-group &amp;#34;psdemo-rg&amp;#34; \  --name &amp;#34;psdemo-linux-1&amp;#34; #Check out the status of our virtual machine az vm list \  --show-details \  --output table #Mark the virtual machine as &amp;#34;generalized&amp;#34; az vm generalize \  --resource-group &amp;#34;psdemo-rg&amp;#34; \  --name &amp;#34;psdemo-linux-1&amp;#34; #Create a VM from the custom image we just created, simply specify the image as a source.</description>
     </item>
     
     <item>

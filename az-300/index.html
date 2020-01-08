@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Az-300 - 42 notes</title>
+  <meta property="og:title" content="Az-300" />
+  <meta name="twitter:title" content="Az-300" />
+  <meta name="description" content="https://docs.microsoft.com/en-us/azure/architecture/reliability/ https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-manage-vm
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/ https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-powershell-sas-token https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/replication/active-directory-replication-concepts https://docs.microsoft.com/en-us/azure/virtual-network/security-overview
+https://docs.microsoft.com/en-us/azure/application-gateway/overview
+https://docs.microsoft.com/en-us/azure/vpn-gateway/point-to-site-about https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-vpn-faq https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways#a-namep2sapoint-to-site-vpn-over-sstp https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-compliance-crypto
+https://docs.microsoft.com/en-us/office365/enterprise/connect-an-on-premises-network-to-a-microsoft-azure-virtual-network
+https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-azureadaccount https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-sspr-writeback https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-express https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/ https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-configure-risk-policies https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-prerequisites https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-select-installation
+https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad-script?toc=%2fazure%2fstorage%2fblobs%2ftoc.json https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-docker-go active-directory-ds-admin-guide-join-windows-vm-portal
+https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-diagnostic-logs
+https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-create-basic-load-balancer-powershell
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-acr
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-app
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-deploy-app
+https://docs.microsoft.com/en-us/azure/event-grid/monitor-virtual-machine-changes-event-grid-logic-app
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.2
+https://docs.microsoft.com/en-us/aspnet/core/client-side/using-grunt?view=aspnetcore-2.2
+https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-create-basic-load-balancer-powershell
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers-dtu
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool
+https://docs.microsoft.com/en-us/powershell/module/azurerm.sql/new-azurermsqlelasticpool?view=azurermps-6.13.0
+https://docs.microsoft.com/en-us/azure/app-service/webjobs-create
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings
+https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels
+https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels-tradeoffs
+https://docs.microsoft.com/en-us/azure/cosmos-db/high-availability
+https://searchstorage.techtarget.com/feature/What-is-the-difference-between-RPO-and-RTO-from-a-backup-perspective
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-cli
+https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-quickstart-cli
+https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-tutorial-topics-subscriptions-cli
+https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad
+https://docs.microsoft.com/en-us/azure/key-vault/key-vault-whatis
+https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-quickstart-cli
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-cli
+https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool
+https://docs.microsoft.com/en-us/powershell/module/azurerm.sql/new-azurermsqlelasticpool?view=azurermps-6.13.0
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools
+https://docs.microsoft.com/en-us/azure/security/azure-security-data-encryption-best-practices
+https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-what-is-it
+https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions
+https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad
+https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
+https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy-lrs
+https://docs.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-faq
+https://docs.microsoft.com/en-us/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/transient-fault-handling
+https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-coexist-classic
+https://docs.microsoft.com/en-us/azure/app-service/webjobs-create
+https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-docker-go">
+  <meta property="og:description" content="https://docs.microsoft.com/en-us/azure/architecture/reliability/ https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-manage-vm
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/ https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-powershell-sas-token https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/replication/active-directory-replication-concepts https://docs.microsoft.com/en-us/azure/virtual-network/security-overview
+https://docs.microsoft.com/en-us/azure/application-gateway/overview
+https://docs.microsoft.com/en-us/azure/vpn-gateway/point-to-site-about https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-vpn-faq https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways#a-namep2sapoint-to-site-vpn-over-sstp https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-compliance-crypto
+https://docs.microsoft.com/en-us/office365/enterprise/connect-an-on-premises-network-to-a-microsoft-azure-virtual-network
+https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-azureadaccount https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-sspr-writeback https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-express https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/ https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-configure-risk-policies https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-prerequisites https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-select-installation
+https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad-script?toc=%2fazure%2fstorage%2fblobs%2ftoc.json https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-docker-go active-directory-ds-admin-guide-join-windows-vm-portal
+https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-diagnostic-logs
+https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-create-basic-load-balancer-powershell
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-acr
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-app
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-deploy-app
+https://docs.microsoft.com/en-us/azure/event-grid/monitor-virtual-machine-changes-event-grid-logic-app
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.2
+https://docs.microsoft.com/en-us/aspnet/core/client-side/using-grunt?view=aspnetcore-2.2
+https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-create-basic-load-balancer-powershell
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers-dtu
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool
+https://docs.microsoft.com/en-us/powershell/module/azurerm.sql/new-azurermsqlelasticpool?view=azurermps-6.13.0
+https://docs.microsoft.com/en-us/azure/app-service/webjobs-create
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings
+https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels
+https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels-tradeoffs
+https://docs.microsoft.com/en-us/azure/cosmos-db/high-availability
+https://searchstorage.techtarget.com/feature/What-is-the-difference-between-RPO-and-RTO-from-a-backup-perspective
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-cli
+https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-quickstart-cli
+https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-tutorial-topics-subscriptions-cli
+https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad
+https://docs.microsoft.com/en-us/azure/key-vault/key-vault-whatis
+https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-quickstart-cli
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-cli
+https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool
+https://docs.microsoft.com/en-us/powershell/module/azurerm.sql/new-azurermsqlelasticpool?view=azurermps-6.13.0
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools
+https://docs.microsoft.com/en-us/azure/security/azure-security-data-encryption-best-practices
+https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-what-is-it
+https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions
+https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad
+https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
+https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy-lrs
+https://docs.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-faq
+https://docs.microsoft.com/en-us/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/transient-fault-handling
+https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-coexist-classic
+https://docs.microsoft.com/en-us/azure/app-service/webjobs-create
+https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-docker-go">
+  <meta name="twitter:description" content="https://docs.microsoft.com/en-us/azure/architecture/reliability/ https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling …">
+  <meta name="author" content="Pavel Polushkin"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "42 notes",
+    
+    "url": "http:\/\/ppolushkin.github.com\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/ppolushkin.github.com\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/ppolushkin.github.com\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/ppolushkin.github.com\/az-300\/",
+          "name": "Az 300"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Pavel Polushkin"
+  },
+  "headline": "Az-300",
+  "description" : "https:\/\/docs.microsoft.com\/en-us\/azure\/architecture\/reliability\/ https:\/\/docs.microsoft.com\/en-us\/azure\/architecture\/best-practices\/auto-scaling\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/virtual-machines\/windows\/tutorial-manage-vm\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/azure-resource-manager\/ https:\/\/docs.microsoft.com\/en-us\/azure\/azure-resource-manager\/resource-manager-powershell-sas-token https:\/\/docs.microsoft.com\/en-us\/windows-server\/identity\/ad-ds\/get-started\/replication\/active-directory-replication-concepts https:\/\/docs.microsoft.com\/en-us\/azure\/virtual-network\/security-overview\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/application-gateway\/overview\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/vpn-gateway\/point-to-site-about https:\/\/docs.microsoft.com\/en-us\/azure\/vpn-gateway\/vpn-gateway-vpn-faq https:\/\/docs.microsoft.com\/en-us\/azure\/vpn-gateway\/vpn-gateway-about-vpngateways https:\/\/docs.microsoft.com\/en-us\/azure\/vpn-gateway\/vpn-gateway-about-vpngateways#a-namep2sapoint-to-site-vpn-over-sstp https:\/\/docs.microsoft.com\/en-us\/azure\/vpn-gateway\/vpn-gateway-about-compliance-crypto\nhttps:\/\/docs.microsoft.com\/en-us\/office365\/enterprise\/connect-an-on-premises-network-to-a-microsoft-azure-virtual-network\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/active-directory\/hybrid\/how-to-connect-azureadaccount https:\/\/docs.microsoft.com\/en-us\/azure\/active-directory\/authentication\/howto-sspr-writeback https:\/\/docs.microsoft.com\/en-us\/azure\/active-directory\/hybrid\/how-to-connect-install-express https:\/\/docs.microsoft.com\/en-us\/azure\/active-directory\/hybrid\/whatis-hybrid-identity https:\/\/docs.microsoft.com\/en-us\/azure\/active-directory\/identity-protection\/ https:\/\/docs.microsoft.com\/en-us\/azure\/active-directory\/identity-protection\/howto-configure-risk-policies https:\/\/docs.microsoft.com\/en-us\/azure\/active-directory\/hybrid\/how-to-connect-install-prerequisites https:\/\/docs.microsoft.com\/en-us\/azure\/active-directory\/hybrid\/how-to-connect-install-select-installation\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/storage\/common\/storage-auth-aad-script?toc=%2fazure%2fstorage%2fblobs%2ftoc.json https:\/\/docs.microsoft.com\/en-us\/azure\/app-service\/containers\/quickstart-docker-go active-directory-ds-admin-guide-join-windows-vm-portal\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/app-service\/troubleshoot-diagnostic-logs\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/load-balancer\/quickstart-create-basic-load-balancer-powershell\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/container-instances\/container-instances-tutorial-prepare-acr\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/container-instances\/container-instances-tutorial-prepare-app\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/container-instances\/container-instances-tutorial-deploy-app\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/event-grid\/monitor-virtual-machine-changes-event-grid-logic-app\nhttps:\/\/docs.microsoft.com\/en-us\/aspnet\/core\/tutorials\/web-api-help-pages-using-swagger?view=aspnetcore-2.2\nhttps:\/\/docs.microsoft.com\/en-us\/aspnet\/core\/client-side\/using-grunt?view=aspnetcore-2.2\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/load-balancer\/quickstart-create-basic-load-balancer-powershell\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/storage\/blobs\/storage-blob-storage-tiers\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/sql-database\/sql-database-dtu-resource-limits-elastic-pools\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/sql-database\/sql-database-service-tiers-dtu\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/sql-database\/sql-database-elastic-pool\nhttps:\/\/docs.microsoft.com\/en-us\/powershell\/module\/azurerm.sql\/new-azurermsqlelasticpool?view=azurermps-6.13.0\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/app-service\/webjobs-create\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/azure-functions\/functions-triggers-bindings\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/cosmos-db\/consistency-levels\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/cosmos-db\/consistency-levels-tradeoffs\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/cosmos-db\/high-availability\nhttps:\/\/searchstorage.techtarget.com\/feature\/What-is-the-difference-between-RPO-and-RTO-from-a-backup-perspective\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/service-bus-messaging\/service-bus-quickstart-cli\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/event-hubs\/event-hubs-quickstart-cli\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/event-grid\/compare-messaging-services\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/service-bus-messaging\/service-bus-tutorial-topics-subscriptions-cli\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/api-management\/api-management-howto-protect-backend-with-aad\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/key-vault\/key-vault-whatis\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/event-hubs\/event-hubs-quickstart-cli\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/service-bus-messaging\/service-bus-quickstart-cli\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/event-grid\/compare-messaging-services\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/sql-database\/sql-database-elastic-pool\nhttps:\/\/docs.microsoft.com\/en-us\/powershell\/module\/azurerm.sql\/new-azurermsqlelasticpool?view=azurermps-6.13.0\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/sql-database\/sql-database-dtu-resource-limits-elastic-pools\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/security\/azure-security-data-encryption-best-practices\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/service-bus-relay\/relay-what-is-it\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/storage\/common\/storage-redundancy\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/service-bus-messaging\/service-bus-queues-topics-subscriptions\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/service-bus-messaging\/service-bus-dotnet-how-to-use-topics-subscriptions\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/api-management\/api-management-howto-protect-backend-with-aad\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/storage\/common\/storage-redundancy\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/storage\/common\/storage-redundancy-lrs\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/notification-hubs\/notification-hubs-push-notification-faq\nhttps:\/\/docs.microsoft.com\/en-us\/aspnet\/aspnet\/overview\/developing-apps-with-windows-azure\/building-real-world-cloud-apps-with-windows-azure\/transient-fault-handling\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/expressroute\/expressroute-howto-coexist-classic\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/app-service\/webjobs-create\nhttps:\/\/docs.microsoft.com\/en-us\/azure\/app-service\/containers\/quickstart-docker-go",
+  "inLanguage" : "en",
+  "wordCount":  80 ,
+  "datePublished" : "2019-02-05T00:00:00",
+  "dateModified" : "2019-02-05T00:00:00",
+  "image" : "http:\/\/ppolushkin.github.com\/donotpanic.jpg",
+  "keywords" : [ "azure, az-300, unsorted" ],
+  "mainEntityOfPage" : "http:\/\/ppolushkin.github.com\/az-300\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/ppolushkin.github.com\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/ppolushkin.github.com\/donotpanic.jpg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Az-300" />
+<meta property="og:description" content="https://docs.microsoft.com/en-us/azure/architecture/reliability/ https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-manage-vm
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/ https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-powershell-sas-token https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/replication/active-directory-replication-concepts https://docs.microsoft.com/en-us/azure/virtual-network/security-overview
+https://docs.microsoft.com/en-us/azure/application-gateway/overview
+https://docs.microsoft.com/en-us/azure/vpn-gateway/point-to-site-about https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-vpn-faq https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways#a-namep2sapoint-to-site-vpn-over-sstp https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-compliance-crypto
+https://docs.microsoft.com/en-us/office365/enterprise/connect-an-on-premises-network-to-a-microsoft-azure-virtual-network
+https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-azureadaccount https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-sspr-writeback https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-express https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/ https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-configure-risk-policies https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-prerequisites https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-select-installation
+https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad-script?toc=%2fazure%2fstorage%2fblobs%2ftoc.json https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-docker-go active-directory-ds-admin-guide-join-windows-vm-portal
+https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-diagnostic-logs
+https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-create-basic-load-balancer-powershell
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-acr
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-app
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-deploy-app
+https://docs.microsoft.com/en-us/azure/event-grid/monitor-virtual-machine-changes-event-grid-logic-app
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.2
+https://docs.microsoft.com/en-us/aspnet/core/client-side/using-grunt?view=aspnetcore-2.2
+https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-create-basic-load-balancer-powershell
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers-dtu
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool
+https://docs.microsoft.com/en-us/powershell/module/azurerm.sql/new-azurermsqlelasticpool?view=azurermps-6.13.0
+https://docs.microsoft.com/en-us/azure/app-service/webjobs-create
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings
+https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels
+https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels-tradeoffs
+https://docs.microsoft.com/en-us/azure/cosmos-db/high-availability
+https://searchstorage.techtarget.com/feature/What-is-the-difference-between-RPO-and-RTO-from-a-backup-perspective
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-cli
+https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-quickstart-cli
+https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-tutorial-topics-subscriptions-cli
+https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad
+https://docs.microsoft.com/en-us/azure/key-vault/key-vault-whatis
+https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-quickstart-cli
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-cli
+https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool
+https://docs.microsoft.com/en-us/powershell/module/azurerm.sql/new-azurermsqlelasticpool?view=azurermps-6.13.0
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools
+https://docs.microsoft.com/en-us/azure/security/azure-security-data-encryption-best-practices
+https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-what-is-it
+https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions
+https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad
+https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
+https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy-lrs
+https://docs.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-faq
+https://docs.microsoft.com/en-us/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/transient-fault-handling
+https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-coexist-classic
+https://docs.microsoft.com/en-us/azure/app-service/webjobs-create
+https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-docker-go">
+<meta property="og:image" content="http://ppolushkin.github.com/donotpanic.jpg" />
+<meta property="og:url" content="http://ppolushkin.github.com/az-300/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="42 notes" />
+  <meta name="twitter:title" content="Az-300" />
+  <meta name="twitter:description" content="https://docs.microsoft.com/en-us/azure/architecture/reliability/ https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling …">
+  <meta name="twitter:image" content="http://ppolushkin.github.com/donotpanic.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:image" content="http://ppolushkin.github.com/donotpanic.jpg" />
+  <meta name="twitter:image" content="http://ppolushkin.github.com/donotpanic.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="http://ppolushkin.github.com/az-300/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="42 notes" />
+
+  <meta name="generator" content="Hugo 0.62.1" />
+  <link rel="alternate" href="http://ppolushkin.github.com/index.xml" type="application/rss+xml" title="42 notes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://ppolushkin.github.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="http://ppolushkin.github.com/css/syntax.css" /><link rel="stylesheet" href="http://ppolushkin.github.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://ppolushkin.github.com/">42 notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Readme" href="/readme">Readme</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Categories</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories">All</a>
+                
+                  <a href="/categories/%d0%bc%d0%b0%d1%82%d0%b5%d0%bc%d0%b0%d1%82%d0%b8%d0%ba%d0%b0">Математика</a>
+                
+                  <a href="/categories/%d0%b0%d0%bb%d0%b3%d0%be%d1%80%d0%b8%d1%82%d0%bc%d1%8b">Алгоритмы</a>
+                
+                  <a href="/categories/java">Java</a>
+                
+                  <a href="/categories/css">CSS</a>
+                
+                  <a href="/categories/azure">Azure</a>
+                
+                  <a href="/categories/az-203">AZ-203</a>
+                
+                  <a href="/categories/az-300">az-300</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="42 notes" href="http://ppolushkin.github.com/">
+            <img class="avatar-img" src="http://ppolushkin.github.com/donotpanic.jpg" alt="42 notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              
+                <h1>Az-300</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p><a href="https://docs.microsoft.com/en-us/azure/architecture/reliability/">https://docs.microsoft.com/en-us/azure/architecture/reliability/</a>
+<a href="https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling">https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-manage-vm">https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-manage-vm</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/">https://docs.microsoft.com/en-us/azure/azure-resource-manager/</a>
+<a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-powershell-sas-token">https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-powershell-sas-token</a>
+<a href="https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/replication/active-directory-replication-concepts">https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/replication/active-directory-replication-concepts</a>
+<a href="https://docs.microsoft.com/en-us/azure/virtual-network/security-overview">https://docs.microsoft.com/en-us/azure/virtual-network/security-overview</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/application-gateway/overview">https://docs.microsoft.com/en-us/azure/application-gateway/overview</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/vpn-gateway/point-to-site-about">https://docs.microsoft.com/en-us/azure/vpn-gateway/point-to-site-about</a>
+<a href="https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-vpn-faq">https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-vpn-faq</a>
+<a href="https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways">https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways</a>
+<a href="https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways#a-namep2sapoint-to-site-vpn-over-sstp">https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways#a-namep2sapoint-to-site-vpn-over-sstp</a>
+<a href="https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-compliance-crypto">https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-compliance-crypto</a></p>
+<p><a href="https://docs.microsoft.com/en-us/office365/enterprise/connect-an-on-premises-network-to-a-microsoft-azure-virtual-network">https://docs.microsoft.com/en-us/office365/enterprise/connect-an-on-premises-network-to-a-microsoft-azure-virtual-network</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-azureadaccount">https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-azureadaccount</a>
+<a href="https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-sspr-writeback">https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-sspr-writeback</a>
+<a href="https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-express">https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-express</a>
+<a href="https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity">https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity</a>
+<a href="https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/">https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/</a>
+<a href="https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-configure-risk-policies">https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-configure-risk-policies</a>
+<a href="https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-prerequisites">https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-prerequisites</a>
+<a href="https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-select-installation">https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-select-installation</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad-script?toc=%2fazure%2fstorage%2fblobs%2ftoc.json">https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad-script?toc=%2fazure%2fstorage%2fblobs%2ftoc.json</a>
+<a href="https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-docker-go">https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-docker-go</a>
+active-directory-ds-admin-guide-join-windows-vm-portal</p>
+<p><a href="https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-diagnostic-logs">https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-diagnostic-logs</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-create-basic-load-balancer-powershell">https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-create-basic-load-balancer-powershell</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-acr">https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-acr</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-app">https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-app</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-deploy-app">https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-deploy-app</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/event-grid/monitor-virtual-machine-changes-event-grid-logic-app">https://docs.microsoft.com/en-us/azure/event-grid/monitor-virtual-machine-changes-event-grid-logic-app</a></p>
+<p><a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.2">https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.2</a></p>
+<p><a href="https://docs.microsoft.com/en-us/aspnet/core/client-side/using-grunt?view=aspnetcore-2.2">https://docs.microsoft.com/en-us/aspnet/core/client-side/using-grunt?view=aspnetcore-2.2</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-create-basic-load-balancer-powershell">https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-create-basic-load-balancer-powershell</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers">https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools">https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers-dtu">https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers-dtu</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool">https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool</a></p>
+<p><a href="https://docs.microsoft.com/en-us/powershell/module/azurerm.sql/new-azurermsqlelasticpool?view=azurermps-6.13.0">https://docs.microsoft.com/en-us/powershell/module/azurerm.sql/new-azurermsqlelasticpool?view=azurermps-6.13.0</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/app-service/webjobs-create">https://docs.microsoft.com/en-us/azure/app-service/webjobs-create</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings">https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels">https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels-tradeoffs">https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels-tradeoffs</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/high-availability">https://docs.microsoft.com/en-us/azure/cosmos-db/high-availability</a></p>
+<p><a href="https://searchstorage.techtarget.com/feature/What-is-the-difference-between-RPO-and-RTO-from-a-backup-perspective">https://searchstorage.techtarget.com/feature/What-is-the-difference-between-RPO-and-RTO-from-a-backup-perspective</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-cli">https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-cli</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-quickstart-cli">https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-quickstart-cli</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services">https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-tutorial-topics-subscriptions-cli">https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-tutorial-topics-subscriptions-cli</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad">https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/key-vault/key-vault-whatis">https://docs.microsoft.com/en-us/azure/key-vault/key-vault-whatis</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-quickstart-cli">https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-quickstart-cli</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-cli">https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-cli</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services">https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool">https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool</a></p>
+<p><a href="https://docs.microsoft.com/en-us/powershell/module/azurerm.sql/new-azurermsqlelasticpool?view=azurermps-6.13.0">https://docs.microsoft.com/en-us/powershell/module/azurerm.sql/new-azurermsqlelasticpool?view=azurermps-6.13.0</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools">https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/security/azure-security-data-encryption-best-practices">https://docs.microsoft.com/en-us/azure/security/azure-security-data-encryption-best-practices</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-what-is-it">https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-what-is-it</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy">https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions">https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions">https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad">https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy">https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy-lrs">https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy-lrs</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-faq">https://docs.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-faq</a></p>
+<p><a href="https://docs.microsoft.com/en-us/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/transient-fault-handling">https://docs.microsoft.com/en-us/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/transient-fault-handling</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-coexist-classic">https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-coexist-classic</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/app-service/webjobs-create">https://docs.microsoft.com/en-us/azure/app-service/webjobs-create</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-docker-go">https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-docker-go</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings">https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-paas-vs-sql-server-iaas">https://docs.microsoft.com/en-us/azure/sql-database/sql-database-paas-vs-sql-server-iaas</a></p>
+<p><a href="https://azure.microsoft.com/en-us/features/storage-explorer/">https://azure.microsoft.com/en-us/features/storage-explorer/</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator">https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator</a></p>
+<p><a href="https://stackoverflow.com/questions/30527522/what-are-the-differences-between-visual-studio-code-and-visual-studio">https://stackoverflow.com/questions/30527522/what-are-the-differences-between-visual-studio-code-and-visual-studio</a></p>
+<p><a href="https://docs.microsoft.com/en-us/visualstudio/azure/vs-azure-tools-resources-managing-with-cloud-explorer?view=vs-2019">https://docs.microsoft.com/en-us/visualstudio/azure/vs-azure-tools-resources-managing-with-cloud-explorer?view=vs-2019</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-dotnet-shared-access-signature-part-1">https://docs.microsoft.com/en-us/azure/storage/common/storage-dotnet-shared-access-signature-part-1</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-storage-explorer">https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-storage-explorer</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/site-recovery/hyper-v-azure-architecture">https://docs.microsoft.com/en-us/azure/site-recovery/hyper-v-azure-architecture</a></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/azure-functions/manage-connections">https://docs.microsoft.com/en-us/azure/azure-functions/manage-connections</a></p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="http://ppolushkin.github.com//tags/azure/">azure</a>&nbsp;
+            
+              <a href="http://ppolushkin.github.com//tags/az-300/">az-300</a>&nbsp;
+            
+              <a href="http://ppolushkin.github.com//tags/unsorted/">unsorted</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
+      </article>
+
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:pavel.polushkin@gmail.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/ppolushkin" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="ppolushkin.github.com">Pavel Polushkin</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://ppolushkin.github.com/">42 notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.62.1</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://ppolushkin.github.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="http://ppolushkin.github.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
+

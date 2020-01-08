@@ -70,7 +70,7 @@ char c = 100; int i = 100; System.out.println(c==i);//Prints true Comparing of p
   "headline": "Operators and Decision Constructs",
   "description" : "Java Operators == Comparing of primitives compared by values\nchar c = 100; int i = 100; System.out.println(c==i);\/\/Prints true Comparing of primitive with wrapper unwrap wrapper and compare by values;\nchar c = 100; Integer i = 100; System.out.println(c==i);\/\/Prints true If the operands of an equality operator are both of either reference type or the null type, then the operation is object equality.\n It is a compile-time error if it is impossible to convert the type of either operand to the type of the other by a casting conversion (§5.",
   "inLanguage" : "en",
-  "wordCount":  649 ,
+  "wordCount":  648 ,
   "datePublished" : "2018-11-19T00:00:00",
   "dateModified" : "2018-11-19T00:00:00",
   "image" : "http:\/\/ppolushkin.github.com\/donotpanic.jpg",
@@ -110,7 +110,7 @@ char c = 100; int i = 100; System.out.println(c==i);//Prints true Comparing of p
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="42 notes" />
 
-  <meta name="generator" content="Hugo 0.55.5" />
+  <meta name="generator" content="Hugo 0.62.1" />
   <link rel="alternate" href="http://ppolushkin.github.com/index.xml" type="application/rss+xml" title="42 notes">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -162,6 +162,8 @@ char c = 100; int i = 100; System.out.println(c==i);//Prints true Comparing of p
                   <a href="/categories/azure">Azure</a>
                 
                   <a href="/categories/az-203">AZ-203</a>
+                
+                  <a href="/categories/az-300">az-300</a>
                 
               </div>
             </li>
@@ -283,97 +285,80 @@ char c = 100; int i = 100; System.out.println(c==i);//Prints true Comparing of p
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
-
-<h2 id="java-operators">Java Operators</h2>
-
-<h3 id="toc_1">==</h3>
-
+        <h2 id="java-operators">Java Operators</h2>
+<h3 id="heading">==</h3>
 <p>Comparing of primitives compared by values</p>
 <div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="kt">char</span> <span class="n">c</span> <span class="o">=</span> <span class="n">100</span><span class="o">;</span>
 <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">100</span><span class="o">;</span>
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">c</span><span class="o">==</span><span class="n">i</span><span class="o">);//</span><span class="n">Prints</span> <span class="kc">true</span></code></pre></div>
-<p>Comparing of primitive with wrapper unwrap wrapper and compare by values;</p>
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">c</span><span class="o">=</span><span class="o">=</span><span class="n">i</span><span class="o">)</span><span class="o">;</span><span class="c1">//Prints true
+</span></code></pre></div><p>Comparing of primitive with wrapper unwrap wrapper and compare by values;</p>
 <div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="kt">char</span> <span class="n">c</span> <span class="o">=</span> <span class="n">100</span><span class="o">;</span>
 <span class="n">Integer</span> <span class="n">i</span> <span class="o">=</span> <span class="n">100</span><span class="o">;</span>
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">c</span><span class="o">==</span><span class="n">i</span><span class="o">);//</span><span class="n">Prints</span> <span class="kc">true</span></code></pre></div>
-<p>If the operands of an equality operator are both of either reference type or the null type, then the operation is object equality.</p>
-
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">c</span><span class="o">=</span><span class="o">=</span><span class="n">i</span><span class="o">)</span><span class="o">;</span><span class="c1">//Prints true
+</span></code></pre></div><p>If the operands of an equality operator are both of either reference type or the null type, then the operation is object equality.</p>
 <blockquote>
 <p>It is a compile-time error if it is impossible to convert the type of either operand to the type of the other by a casting
 conversion (§5.5).</p>
 </blockquote>
 <div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="n">Integer</span> <span class="n">i</span> <span class="o">=</span> <span class="n">9</span><span class="o">;</span>
 <span class="n">String</span> <span class="n">s</span> <span class="o">=</span> <span class="s">&#34;&#34;</span><span class="o">;</span>
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">i</span> <span class="o">==</span> <span class="n">s</span><span class="o">);</span> <span class="c1">//Compile time error
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">i</span> <span class="o">=</span><span class="o">=</span> <span class="n">s</span><span class="o">)</span><span class="o">;</span> <span class="c1">//Compile time error
 </span><span class="c1"></span>
 <span class="n">Object</span> <span class="n">o</span> <span class="o">=</span> <span class="n">9</span><span class="o">;</span>
 <span class="n">String</span> <span class="n">s</span> <span class="o">=</span> <span class="s">&#34;&#34;</span><span class="o">;</span>
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">o</span> <span class="o">==</span> <span class="n">s</span><span class="o">);</span> <span class="o">//</span><span class="n">always</span> <span class="k">return</span> <span class="kc">false</span></code></pre></div>
-<h3 id="instanceof">instanceof</h3>
-
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">o</span> <span class="o">=</span><span class="o">=</span> <span class="n">s</span><span class="o">)</span><span class="o">;</span> <span class="c1">//always return false
+</span></code></pre></div><h3 id="instanceof">instanceof</h3>
 <blockquote>
 <p>The <strong>type</strong> of the <em>RelationalExpression</em> operand <strong>of the instanceof operator must be a reference type or the null</strong> type; <strong>otherwise, a compile-time error occurs</strong>.</p>
 </blockquote>
 <div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">9</span><span class="o">;</span>
-<span class="kt">boolean</span> <span class="n">b</span> <span class="o">=</span> <span class="n">i</span> <span class="k">instanceof</span> <span class="n">Object</span><span class="o">;</span> <span class="o">//</span><span class="n">Compile</span> <span class="n">time</span> <span class="n">error</span><span class="o">.</span> <span class="n">Expected</span> <span class="n">type</span> <span class="n">reference</span> <span class="n">found</span> <span class="kt">int</span></code></pre></div>
-<blockquote>
+<span class="kt">boolean</span> <span class="n">b</span> <span class="o">=</span> <span class="n">i</span> <span class="k">instanceof</span> <span class="n">Object</span><span class="o">;</span> <span class="c1">//Compile time error. Expected type reference found int
+</span></code></pre></div><blockquote>
 <p><strong>If a cast</strong> (§15.16) of the RelationalExpression <strong>to the ReferenceType would be rejected as a compile-time error</strong>,
 then the <strong>instanceof</strong> relational expression likewise <strong>produces a compile-time error</strong>.</p>
 </blockquote>
 <div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="n">Integer</span> <span class="n">i</span> <span class="o">=</span> <span class="n">9</span><span class="o">;</span>
-<span class="kt">boolean</span> <span class="n">b</span> <span class="o">=</span> <span class="n">i</span> <span class="k">instanceof</span> <span class="n">String</span><span class="o">;</span> <span class="o">//</span><span class="n">Compile</span> <span class="n">time</span> <span class="n">error</span><span class="o">.</span> <span class="n">Integer</span> <span class="n">cannot</span> <span class="n">be</span> <span class="n">converted</span> <span class="n">to</span> <span class="n">String</span></code></pre></div>
-<p>At run time, the result of the instanceof operator is true if the value of the RelationalExpression is not null and the reference could be cast to the ReferenceType without raising a ClassCastException. Otherwise the result is false. What means than in Case of Null it will always Return false.</p>
-
+<span class="kt">boolean</span> <span class="n">b</span> <span class="o">=</span> <span class="n">i</span> <span class="k">instanceof</span> <span class="n">String</span><span class="o">;</span> <span class="c1">//Compile time error. Integer cannot be converted to String
+</span></code></pre></div><p>At run time, the result of the instanceof operator is true if the value of the RelationalExpression is not null and the reference could be cast to the ReferenceType without raising a ClassCastException. Otherwise the result is false. What means than in Case of Null it will always Return false.</p>
 <h3 id="switch">switch</h3>
-
-<p><img src="/img/switch.png" alt="switch" /></p>
-
+<p><img src="/img/switch.png" alt="switch"></p>
 <p>You should remember the following rules for a switch statement:</p>
-
 <p>1 . Only <strong>byte, short, int, char, String and enum</strong> values can be used as types of a switch variable. (String is allowed since Java 7.) Wrapper classes Byte, Character, Short, and Integer are allowed as well.</p>
-
 <blockquote>
-<p>BSIL w/o long<br />
-chars<br />
-string, enum<br />
-+ wrappers</p>
+<p>BSIL w/o long<br>
+chars<br>
+string, enum</p>
+<ul>
+<li>wrappers</li>
+</ul>
 </blockquote>
-
 <p>2 . The case constants must be assignable to the switch variable. For example, if your switch variable is of class String, your case labels must use Strings as well.
-3 . The switch variable must be big enough to hold all the case constants. For example, if the switch variable is of type char, then none of the case constants can be greater than 65535 because a char&rsquo;s range is from 0 to 65535. Similarly, the following will not compile because 300 cannot be assigned to &lsquo;by&rsquo;, which can only hold values from -128 to 127.</p>
+3 . The switch variable must be big enough to hold all the case constants. For example, if the switch variable is of type char, then none of the case constants can be greater than 65535 because a char's range is from 0 to 65535. Similarly, the following will not compile because 300 cannot be assigned to &lsquo;by&rsquo;, which can only hold values from -128 to 127.</p>
 <div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="kt">byte</span> <span class="n">by</span> <span class="o">=</span> <span class="n">10</span><span class="o">;</span>
-<span class="k">switch</span><span class="o">(</span><span class="n">by</span><span class="o">){</span>
+<span class="k">switch</span><span class="o">(</span><span class="n">by</span><span class="o">)</span><span class="o">{</span>
     <span class="k">case</span> <span class="n">200</span> <span class="o">:</span>  <span class="c1">//some code; Compile error here!
 </span><span class="c1"></span>    <span class="k">case</span> <span class="n">300</span> <span class="o">:</span>  <span class="c1">//some code; Compile error here!
-</span><span class="c1"></span><span class="o">}</span></code></pre></div>
-<p>4 .  All case labels should be COMPILE TIME CONSTANTS.
+</span><span class="c1"></span><span class="o">}</span>
+</code></pre></div><p>4 .  All case labels should be COMPILE TIME CONSTANTS.
 5 . No two of the case constant expressions associated with a switch statement may have the same value.
 6 . At most one default label may be associated with the same switch statement.</p>
-
-<h3 id="chain-operator">Chain = operator</h3>
-
+<h3 id="chain--operator">Chain = operator</h3>
 <p>= can be chained. For example, assuming all the variables are declared appropriately before hand,</p>
-<div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="n">a</span> <span class="o">=</span> <span class="n">b</span> <span class="o">=</span> <span class="n">c</span> <span class="o">=</span> <span class="n">d</span><span class="o">;</span> <span class="n">is</span> <span class="n">valid</span><span class="o">.</span></code></pre></div>
-<p>However, chaining to use a value of a variable at the time of declaration is not allowed. For example,</p>
-<div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="n">b</span> <span class="o">=</span> <span class="n">c</span> <span class="o">=</span> <span class="n">100</span><span class="o">;</span></code></pre></div>
-<p>is invalid if b and c are not already declared. Had b and c been already declared, int a = b = c = 100; would have been valid.</p>
-
+<div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="n">a</span> <span class="o">=</span> <span class="n">b</span> <span class="o">=</span> <span class="n">c</span> <span class="o">=</span> <span class="n">d</span><span class="o">;</span> <span class="n">is</span> <span class="n">valid</span><span class="o">.</span>
+</code></pre></div><p>However, chaining to use a value of a variable at the time of declaration is not allowed. For example,</p>
+<div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="n">b</span> <span class="o">=</span> <span class="n">c</span> <span class="o">=</span> <span class="n">100</span><span class="o">;</span>
+</code></pre></div><p>is invalid if b and c are not already declared. Had b and c been already declared, int a = b = c = 100; would have been valid.</p>
 <h3 id="chain-operator-with-arrays">Chain operator with arrays</h3>
-
 <p>The statement <code>iA[i] = i = 30;</code> will be processed as follows:</p>
-<div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="n">iA</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">i</span> <span class="o">=</span> <span class="n">30</span><span class="o">;</span> <span class="o">=&gt;</span> <span class="n">iA</span><span class="o">[</span><span class="n">0</span><span class="o">]</span> <span class="o">=</span> <span class="n">i</span> <span class="o">=</span> <span class="n">30</span><span class="o">;</span>  <span class="o">=&gt;</span>  <span class="n">i</span> <span class="o">=</span> <span class="n">30</span><span class="o">;</span> <span class="n">iA</span><span class="o">[</span><span class="n">0</span><span class="o">]</span> <span class="o">=</span> <span class="n">i</span><span class="o">;</span> <span class="o">=&gt;</span>  <span class="n">iA</span><span class="o">[</span><span class="n">0</span><span class="o">]</span> <span class="o">=</span> <span class="n">30</span><span class="o">;</span></code></pre></div>
-<h4 id="here-is-what-jls-says-on-this">Here is what JLS says on this:</h4>
-
+<div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="n">iA</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">i</span> <span class="o">=</span> <span class="n">30</span><span class="o">;</span> <span class="o">=</span><span class="o">&gt;</span> <span class="n">iA</span><span class="o">[</span><span class="n">0</span><span class="o">]</span> <span class="o">=</span> <span class="n">i</span> <span class="o">=</span> <span class="n">30</span><span class="o">;</span>  <span class="o">=</span><span class="o">&gt;</span>  <span class="n">i</span> <span class="o">=</span> <span class="n">30</span><span class="o">;</span> <span class="n">iA</span><span class="o">[</span><span class="n">0</span><span class="o">]</span> <span class="o">=</span> <span class="n">i</span><span class="o">;</span> <span class="o">=</span><span class="o">&gt;</span>  <span class="n">iA</span><span class="o">[</span><span class="n">0</span><span class="o">]</span> <span class="o">=</span> <span class="n">30</span><span class="o">;</span>
+</code></pre></div><h4 id="here-is-what-jls-says-on-this">Here is what JLS says on this:</h4>
 <ol>
-<li>Evaluate Left-Hand Operand First<br /></li>
-<li>Evaluate Operands before Operation<br /></li>
-<li>Evaluation Respects Parentheses and Precedence<br /></li>
-<li>Argument Lists are Evaluated Left-to-Right<br /></li>
+<li>Evaluate Left-Hand Operand First</li>
+<li>Evaluate Operands before Operation</li>
+<li>Evaluation Respects Parentheses and Precedence</li>
+<li>Argument Lists are Evaluated Left-to-Right</li>
 </ol>
-
 <h4 id="for-arrays">For Arrays</h4>
-
 <ol>
 <li>First, the dimension expressions are evaluated, left-to-right.</li>
 <li>If any of the expression evaluations completes abruptly, the expressions to the right of it are not evaluated.</li>
@@ -445,7 +430,7 @@ string, enum<br />
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.55.5</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          <a href="http://gohugo.io">Hugo v0.62.1</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
           
         </p>
       </div>

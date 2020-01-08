@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dotNet on 42 notes</title>
@@ -33,7 +33,7 @@ How to creaate web API app</description>
       <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
       <author>pavel.polushkin@gmail.com (Pavel Polushkin)</author>
       <guid>http://ppolushkin.github.com/dotnet/</guid>
-      <description>install dotnet create app dotnet new console -o myApp run app cd myApp; dotnet run install Visual Studio Code install C# for Visual Studio Code extension by Microsoft install C# Extensions extension In case of issue add a file omnisharp.json into project root. Now you can debug.  omnisharp.json { &amp;#34;MsBuild&amp;#34;: { &amp;#34;UseLegacySdkResolver&amp;#34;: true } }  if navigation to declaration is not working Use ctrl-shift-P and select &amp;ldquo;OmniSharp: Select Project&amp;rdquo; to select the correct project.</description>
+      <description>install dotnet create app dotnet new console -o myApp run app cd myApp; dotnet run install Visual Studio Code install C# for Visual Studio Code extension by Microsoft install C# Extensions extension In case of issue add a file omnisharp.json into project root. Now you can debug.  omnisharp.json { &amp;#34;MsBuild&amp;#34;: { &amp;#34;UseLegacySdkResolver&amp;#34;: true } }   if navigation to declaration is not working Use ctrl-shift-P and select &amp;ldquo;OmniSharp: Select Project&amp;rdquo; to select the correct project.</description>
     </item>
     
   </channel>
